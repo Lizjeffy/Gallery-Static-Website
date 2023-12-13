@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+     background-image: url('assets/1.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     height: 35vh;
+     padding: 20px;
+}
+
+.download{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 0.5em;
+    color: #fff;
+}
+
+.download button.active {
+    background-color: rgb(219, 72, 91);
+    color: rgb(255, 255, 255);
+    border: #fff;
+    border-radius: 40px;
+    font-size: 0.5em;
+    padding: 5px 15px;
+}
+
+.inside-image {
+    width: 39%;                  
+    margin: auto; 
+    padding: 0;
+}
+
+.inside-image h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.inside-image p {
+    font-size: 0.8em;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.inside-image button.active {
+    background-color: rgb(119, 109, 253);
+    color: rgb(255, 255, 255);
+    border: #fff;
+    border-radius: 40px;
+    font-size: 0.65em;
+    padding: 5px 15px;
+}
+
+.tag-text {
+    font-weight: 850;
+    font-size: 1.65em;
+    color: rgb(32, 32, 32);
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.options button {
+    font-size: x-small;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 20px;
+    margin: 0 5px;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.options button.active {
+    background-color: rgb(85, 73, 255);
+    color: rgb(255, 255, 255);
+    border: #fff;
+}
+
+grid{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    padding: 12px 420px;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 110%;
+    max-width: 200px;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
